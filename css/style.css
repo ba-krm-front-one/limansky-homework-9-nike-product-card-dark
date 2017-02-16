@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: all 0.1s ease-in;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #eeeeee;
+	}
+@font-face {
+	font-family: "MuseoSans";
+	src: url("//db.onlinewebfonts.com/t/7438bbf176f4cce037dbe179c0e5aece.eot");
+}
+@font-face {
+	font-family: ralewayregular;
+	src: url('../fonts/ralewaybold.ttf');
+}
+@font-face {
+	font-family: Roboto;
+	src: url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+}
+
+
+.body{
+	background: url("../img/group-3-copy.png");
+background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	min-width:100%;
+	min-height:100%;
+	position: absolute;
+}
+.background{
+	background: url("../img/grain.png") no-repeat center top fixed;
+background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	min-width:100%;
+	min-height:100%;
+	position: absolute;
+}
+.list {
+	/* Style for "Rounded Re" */
+	width: 686px;
+	height: 391px;
+	box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+	border-radius: 10px;
+	background-color: #111a28;
+	margin-top: 109px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.logo{
+	width: 65px;
+	height: auto;
+	position: absolute;
+	background: none;
+	top:30px;
+	left:30px;
+}
+.botinok {
+	background: none;
+	position: relative;
+	top:100px;
+	left: 70px;
+	height: 159px;
+	width: 329px;
+}
+.botinok-img{
+background: none;
+}
+
+.rightpart{
+	background: none;
+	position: relative;
+	width: 200px;
+	margin-left: 450px;
+}
+.rightpart>h1 {
+	/* Style for "Nike SB St" */
+	width: 155px;
+	height: 44px;
+	color: #e1e1e1;
+	font-family: "MuseoSans";
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 26px;
+	background: none;
+}
+.rightpart>h2 {
+	font-weight: 50;
+	font-size: 14px;
+	background: none;
+	color: white;
+}
+.rightpart>ul>li {
+	display:inline-block;
+	text-decoration: none;
+	background: transparent;
+}
+.rightpart>ul{
+	background: transparent;
+	margin-top: 24px;
+}
+.rightpart>ul>li>img{
+	background: transparent;
+}
+.list>section {
+	width: 200px;
+	height: 30px;
+	background: transparent;
+	position: absolute;
+	top:60px;
+}
+.list>section>div {
+	width: 9px;
+	height: 9px;
+	color:white;
+	border-radius:50%;
+}
+.list>section>div:hover {
+	border: 6px solid #b2b6ba;
+
+}
+
+.butt {
+	border: 1px solid #b2b6ba;
+	background-color: #111a28;
+	color: #b2b6ba;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 18px;
+	padding-right: 14px;
+}
+.butt:hover{
+	background-color: #283443;
+}
+.section-button{
+	background: transparent;
+	margin-top: 20px;
+	width: 145px;
+	height: 35px;
+}
+.button-size {
+	/* Style for "Rectangle" */
+	width: 69px;
+	height: 32px;
+
+}
+.galka{
+	width: 7px;
+	height: 7px;
+	border-left: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	background: transparent;
+	position: absolute;
+	top: 165px;
+	left: 50px;
+	z-index: 22;
+}
+.button-Qty{
+	width: 69px;
+	height: 32px;
+}
+.galka2{
+	width: 7px;
+	height: 7px;
+	border-left: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	background: transparent;
+	position: absolute;
+	top: 165px;
+	left: 125px;
+}
+.button-add{
+	width: 184px;
+	height: 40px;
+	margin-top: 30px;
+}
+
+/*-----------------------------------colors*/
+
+.colors{
+	position: absolute;
+	top:-80px;
+	left:190px;
+	margin-top: 280px;
+}
+.colors>div{
+	display: inline-block;
+	margin-left: 10px;
+	background: transparent;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+.colors>div:nth-child(1){
+	background-color: #293550;
+}
+.colors>div:nth-child(2){
+	background-color: #ffffff;
+}
+.colors>div:nth-child(3){
+	background-color: #f34b42;
+}
+.colors>div:nth-child(4){
+	background-color: #24e7ee;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
